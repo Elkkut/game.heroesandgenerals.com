@@ -1,0 +1,105 @@
+/* header menu */
+@font-face {
+    font-family: 'FetteEngDOT';
+    src: url('fonts/fetteengdot-webfont.eot');
+    src: url('fonts/fetteengdot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fetteengdot-webfont.woff') format('woff'),
+         url('fonts/fetteengdot-webfont.ttf') format('truetype'),
+         url('fonts/fetteengdot-webfont.svg#FetteEngDOT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+a, a:visited { color:#7f8e91; text-decoration:none; outline:none; }
+a:hover { color:#81c8d5; text-decoration:underline; }
+ul { list-style-type:none; margin:0 0 1em 0; padding:0; line-height:0%; }
+ul li { margin:0; padding:0; line-height:normal; }
+
+body 
+{
+	color:white;
+
+/*  Background image set from Javascript*/
+/*    background-image:url('http://static.heroesandgenerals.com/media/backgrounds/InstallPluginBackground_js.jpg');*/
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:top center;
+    min-height:100%;
+	background-color:black;
+	font-family:AlteDIN;
+	font-size:11px;
+}
+div.popup					
+{
+     top: 105px;
+     margin:0 auto;
+     vertical-align:initial;
+     padding-bottom:30px;
+     padding-right:30px; 
+     width:450px; 
+     height:1%;
+     background-repeat:no-repeat;
+     background-position:bottom right;
+     background-color:rgba(10,10,10,0);
+     position:relative;
+}
+
+.bttns {
+	background:none;
+    border:none;
+    margin:20px;
+    padding:0;
+    font-family: 'FetteEngDOT'; 
+    font-size: larger; 
+    color: white;
+    text-decoration:underline;
+    font-size:50px;
+    position:relative;
+    top:100px;
+    visibility:hidden;
+}
+.bttns:hover {
+    color: rgb(170,170,170);
+}
+.bttns:active {
+	top:101px;
+}
+
+.btn {
+	background:none;
+    border:none;
+    margin-left:300px;
+    padding:0;
+    font-family: 'FetteEngDOT'; 
+    font-size: larger; 
+    color: white;
+    text-decoration:underline;
+    font-size:40px;
+}
+.btn:hover {
+    color: rgb(170,170,170);
+}
+.btn:active {
+	top:101px;
+}
+
+a, a:visited { color:#7f8e91; text-decoration:none; outline:none; }
+a:hover { color:#81c8d5; text-decoration:underline; }
+
+
+.maintenance
+{
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+}
+
+#jsfail
+{
+    font-family: 'FetteEngDOT'; 
+    font-size: 45px;
+    width: 50%;
+    margin: 0 auto;
+    position:relative;
+    top: 300px;
+}

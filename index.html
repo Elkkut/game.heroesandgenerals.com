@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta property="og:title" content="Heroes & Generals" />
+	<meta property="og:description" content="Heroes & Generals - Game" />
+	<meta property="og:image" content="http://forum.heroesandgenerals.com/images/facebook-thumbnail201.jpg" />
+	<link rel="image_src" href="http://forum.heroesandgenerals.com/images/facebook-thumbnail201.jpg" />
+    <LINK href="DefaultStyle.css" rel="stylesheet" type="text/css">
+    <title>Heroes &amp; Generals</title>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PJWFBCW');</script>
+	<!-- End Google Tag Manager -->
+	<style type="text/css" media="screen">
+            body	 				    { background-image: url('https://static.heroesandgenerals.com/media/backgrounds/InstallPluginBackground_1600x900.jpg'); }
+			html, body	 				{ height:100%; background-color:rgb(0, 0, 0); }
+			body						{ margin:0; padding:0; overflow:hidden; color:white; 
+										  font-family:Verdana,Arial,Helvetica,sans-serif;font-size:11px; width:100%; }
+			#myAlternativeContent		{ visibility:hidden; background-color:rgba(10,10,10,0.4); padding:5px; }
+			p.sm						{ font-size:11px; }
+			p.intro						{ font-size:14px; font-style:italic; }
+			a, a:visited				{ color:#fff; text-decoration:underline; text-transform: uppercase; line-height:12px; }
+	</style>
+	<script src="settings.js" type="text/javascript"></script>
+	<script src="sitetracker.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">	       
+	 
+
+		// A .NET-like String.format()
+	    String.prototype.format = function () {
+			var formatted = this;
+	        for (arg in arguments) {
+				formatted = formatted.replace("{" + arg + "}", arguments[arg]);
+			}
+			return formatted;
+		};
+		
+		// Helper functions for local storage
+		var localStorageSupport;
+	    function getValue(var1) {
+	        if (localStorageSupport == true) {
+				return localStorage.getItem(var1);
+			}
+	        else {
+				return GetCookie(var1);
+			}
+		}
+
+	    function setValue(var1, var2) {
+	        if (localStorageSupport == true) {
+				localStorage.setItem(var1,var2);
+			}
+	        else {
+				setCookie(var1,var2);
+			}
+		}
+
+	    function removeValue(var1) {
+	        if (localStorageSupport == true) {
+				localStorage.removeItem(var1);
+			}
+	        else {
+				delete_cookie(var1);
+			}
+		}
+
+	    function delete_cookie(cookie_name) {
+			 var cookie_date = new Date ( );  // current date & time
+			 cookie_date.setTime ( cookie_date.getTime() - 1 );
+			 document.cookie = cookie_name += "=; expires=" + cookie_date.toGMTString();
+		}
+
+	    function setCookie(c_name, value) {
+			var exdate=new Date();
+			exdate.setDate(exdate.getDate() + 365);
+			var c_value=escape(value) + ((365==null) ? "" : "; expires="+exdate.toUTCString());
+			c_value += ";domain=.heroesandgenerals.com";
+			document.cookie=c_name + "=" + c_value;
+		}
+
+	    function checkIfLocalStorageIsSupported() {
+	        if (window.localStorage) {
+				localStorageSupport = true;
+			 }
+	        else {
+				localStorageSupport = false;
+			 }
+		}
+		
+		var sInstallerUrl = "http://"+unique_file_server1+"/HeroesAndGenerals-setup-"+version+".exe";
+		var locale_file = this["locale_"+GetPreferredLanguage()];
+		
+		document.write('<scr'+'ipt src="locale/handgmain_'+GetPreferredLanguage()+'.js" type="text/javascript"></sc'+'ript>');
+
+		document.title = hngtitle;
+
+	    function GetPreferredLanguage() {
+			// First, check the cookie
+			var lang = GetCookie("hnglang");
+	        if (lang != null && LanguageExists(lang)) {
+				return lang;
+			}
+			
+			// No cookie: Check the browser preference
+			// Run through the accept-language list and return the first available one (if any)
+			var langs = lang_string.split(",");
+	        for (var x in langs) {
+				var lang = langs[x].split(';')[0].split('-')[0];
+	            if (LanguageExists(lang)) {
+					return lang;
+				}
+			}
+			
+			// No luck there either: Default to English
+			return "en";
+		}
+		
+	    function LanguageExists(lang) {
+			return this["locale_"+lang] != undefined;
+		}
+		
+	    function GetCookie(c_name) {
+			var cookies=document.cookie.split(";");
+	        for (var i = 0; i < cookies.length; i++) {
+				var name=cookies[i].substr(0,cookies[i].indexOf("="));
+				var value=cookies[i].substr(cookies[i].indexOf("=")+1);
+				name=name.replace(/^\s+|\s+$/g,""); //remove leading/trailing whitespace
+	            if (name == c_name) {
+					return unescape(value);
+				}
+			}
+		}
+
+	</script>
+    
+</head>
+<body onload=checkIfLocalStorageIsSupported()>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJWFBCW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+		<div id="myAlternativeContent">
+			<h1>Please install Heroes &amp; Generals and start it using the link in the start menu.</h1>
+		</div>
+		<center>
+		<div id="Requester" class="popup">
+		<div style="font-size:16px;"><div id="QuestionText" style="font-size:18px;">
+		<script type="text/javascript">
+		var instructions = Loc_NoMoreBrowser.format(sInstallerUrl);
+		document.write(instructions);
+		</script>
+		</div></div></div>
+		</center>
+
+	<script type="text/javascript">
+		document.getElementById("myAlternativeContent").style.visibility="hidden";
+	</script>
+  </body>
+</html>

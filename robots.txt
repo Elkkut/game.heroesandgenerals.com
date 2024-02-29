@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Server is down for maintenance</title>
+	<meta property="og:title" content="Heroes & Generals" />
+	<meta property="og:description" content="Heroes & Generals - Game" />
+<style>
+@font-face{
+	font-family:'headline';
+	src:url("//static.heroesandgenerals.com/ui-kit/fonts/headline.eot");
+	src:url("//static.heroesandgenerals.com/ui-kit/fonts/headline.eot?#iefix") format("embedded-opentype"),
+	    url("//static.heroesandgenerals.com/ui-kit/fonts/headline.woff") format("woff"),
+	    url("//static.heroesandgenerals.com/ui-kit/fonts/headline.ttf") format("truetype"),
+	    url("//static.heroesandgenerals.com/ui-kit/fonts/headline.svg#bb486107842ac4baba3f2d5e31aefa9b") format("svg");
+	font-style:normal;
+	font-weight:400;
+}
+@font-face{
+	font-family:'body-text';
+	src:url("//static.heroesandgenerals.com/ui-kit/fonts/body-text.eot");
+	src:url("//static.heroesandgenerals.com/ui-kit/fonts/body-text.eot?#iefix") format("embedded-opentype"),
+		url("//static.heroesandgenerals.com/ui-kit/fonts/body-text.woff") format("woff"),
+		url("//static.heroesandgenerals.com/ui-kit/fonts/body-text.ttf") format("truetype"),
+		url("//static.heroesandgenerals.com/ui-kit/fonts/body-text.svg#eca9d29b18d79767b181e40ec6ce2bd1") format("svg");
+	font-style:normal;
+	font-weight:400;
+}
+
+a, a:visited { color:#7f8e91; text-decoration:none; outline:none; }
+a:hover { color:#81c8d5; text-decoration:underline; }
+h1,h2,h3,h4,h5,h6{font-family:'headline', sans-serif;margin-top:14px;margin-bottom:0;line-height:1;clear:both;font-weight:normal}
+img {padding:10px;}
+body
+{
+        color: white;
+        font-family: 'body-text';
+        font-size: 16px;
+        background-color: #000000;
+}
+</style>
+</head>
+<body bgcolor="#000000">
+<center>
+        <img src="https://static.heroesandgenerals.com/logo.jpg"><br />
+		<h1>Server is down for maintenance</h1>
+		<p>In the meantime, please visit the <a href="https://heroesandgenerals.com/forums">forum</a>
+		  or read up on the <a href="https://heroesandgenerals.com/news">game news</a>.
+		  <br /><br />
+		- The Reto-Moto Team - 
+<br /><br /><br />
+<div>
+<a class="twitter-timeline" data-width="500" data-height="400" data-dnt="true" data-theme="dark" href="https://twitter.com/HGserverstatus">Tweets by HGserverstatus</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<p>
+<h2>Maintenance FAQ:</h2>
+<h3>What about my Veteran Membership?</h3>
+Your Veteran Membership is automatically paused during maintenance.
+<br/>
+
+
+<h3>What about my active Ribbon Boosters?</h3>
+Active Ribbon Boosters are always reset during maintenance.
+</p>
+<p>Read the full <a href=https://heroesandgenerals.com/game/faq/">Heroes &amp; Generals FAQ</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLnPg4s8q3uRSM6NuSCKbNDttmyRbHVrc2" frameborder="0" allowfullscreen></iframe>
+</center>
+</body>
